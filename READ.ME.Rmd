@@ -8,30 +8,14 @@ output: pdf_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## Title
+# How Music Shapes Who We Are. 
 
 ## INTRODUCTION
-# 
+# Music can be seen and heard everywhere throughout our daily life. It can often act as a reflection of the person who listen and decide to take part in its popularity. To expand on that idea, the communicative and accumulative listening within our nation would show themes and sounds that they resonates with. Our aim with this project are to see how the most listened to songs within a year reflect the cultural and current situation that is happening within that year. This analysis are studying the top hits of the years 2016 and 2026. This information may be helpful to see the cultural impacts of the COVID -19 pandemic, and would be interesting to see if attitudes and music taste has took a downward spiral after the disaster or has got better. See songs with important themes about progression in the community or values of substances and clothing either perpetuating or diminishing between years.
 
+# CURRENT FINDINGS 
+#
 
 
 
