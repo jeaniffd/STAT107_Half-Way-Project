@@ -1,0 +1,30 @@
+---
+title: "Functions/Cleaning"
+author: "Everett Law"
+date: "2026-11-05"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+readtest <- read.csv("history.csv")
+View(readtest)
+readtest2 <- read.csv("regional-global-weekly-2016-12-30--2017-01-06.csv")
+View(readtest2)
+readtest2_2 <- readtest2
+View(readtest2_2)
+names(readtest2_2) <- c("Position", "Track Name", "Artist", "Streams", "URL")
+readtest2_2$Streams <- as.double(readtest2_2$Streams)
+
+for (bonk in c(1:(length(readtest2_2$Position)-1))) {
+  readtest2_2[bonk,] <- readtest2_2[bonk+1,]
+}
+readtest2_2 <- readtest2_2[-201,]
+```
+
+```{r}
+
+```
