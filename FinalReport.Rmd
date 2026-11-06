@@ -1,0 +1,20 @@
+---
+title: "FinalReport.Rmd"
+author: "Jeaniff"
+date: "2026-11-06"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Title
+# Studying the mood shift in the span of 10 years through the use of trending music within their respective years.
+
+## INTRODUCTION
+# Music can be seen and heard everywhere throughout our daily life. It can often act as a reflection of the person who listen and decide to take part in its popularity. To expand on that idea, the communicative and accumulative listening within our nation would show themes and sounds that they resonates with. Our aim with this project are to see how the most listened to songs within a year reflect the cultural and current situation that is happening within that year. This analysis are studying the top hits of the years 2016 and 2026. This information may be helpful to see the cultural impacts of the COVID -19 pandemic, and would be interesting to see if attitudes and music taste has took a downward spiral after the disaster or has got better. See songs with important themes about progression in the community or values of substances and clothing either perpetuating or diminishing between years.
+
+# CURRENT FINDINGS 
+#
+#
