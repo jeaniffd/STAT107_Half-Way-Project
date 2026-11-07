@@ -12,11 +12,24 @@ knitr::opts_chunk$set(echo = TRUE)
 # Files:
 
 # "00_requirements.R"  
-# This file loads in the required packages
+# This file loads in the required packages and logs user into the spotifyr.
 ```{r}
 source("C:/Users/jeani/Documents/GitHub/Half-Way Project/00_requirements.R")
 ```
 
+## "01_Cleaning_Datasets.R"
+# It cleaned the datasets to match and get them ready for there new column.
+```{r}
+source("C:/Users/jeani/Documents/GitHub/Half-Way Project/01_Cleaning_Datasets.R")
+```
+
+## "02_Adding_Genres.R"
+# adding the new column which is what we are comparing between songs.
+```{r}
+Spotify_2016_3 <- add_song_genres(Spotify_2016_2, name)
+
+Spotify_2026_3 <- add_song_genres(Spotify_2026_2, name)
+```
 
 
 
